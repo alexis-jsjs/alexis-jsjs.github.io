@@ -1,0 +1,71 @@
+
+
+  .sex{text-align:center;
+  }
+  .contact{text-align:center;
+    margin:25px;
+  }
+.form-1{text-align:center;
+margin: 10px;
+background: black;
+}
+.form__2{text-align:center;
+margin-right:20px;
+}
+.form__3{text-align:center;
+margin-bottom:20px;
+margin-right:50px;
+width:100%;
+    padding: 1px;
+    margin: 1px 0;
+    border: none;
+    border-bottom:4px solid orange;
+    background: transparent;
+    color:white;
+    font-size:20px;
+}
+.form__3:focus{
+background:linear-gradient(to bottom, transparent, rgb(255, 139, 119));
+    outline: none;
+    border-bottom:3px solid rgb(255, 139, 119);}
+
+
+    @media screen and (min-width: 900px){
+        .form-1{
+            width: auto;
+            height: auto;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: 130px;
+        
+        }
+        .footer-copyright{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        }
+        .form__3:focus{
+            background:linear-gradient(to bottom, transparent,blueviolet);
+                outline: none;
+                border-bottom:3px solid white;}
+        .form__3{     border-bottom:4px solid rgb(115, 255, 0);
+        }
+    }
+    @media screen and (min-width:1600px){
+.form-1{
+    margin-left: 200px;
+    margin-right: 200px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+}
+ 
+    }
